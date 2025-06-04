@@ -6,7 +6,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 
 
 
-df=pd.read_csv("C:\\ReviewClassifier\\Combined Data.csv")
+df=pd.read_csv("Combined Data.csv")
 df.drop(columns='Unnamed: 0',inplace=True)
 df.dropna(inplace=True)
 df.drop_duplicates(inplace=True)
